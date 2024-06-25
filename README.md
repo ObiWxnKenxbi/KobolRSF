@@ -44,12 +44,11 @@ The main file is main.py. In there you can run the integrator and get the phases
 Example of usage:
 
 ``` python
-from model import VCOModel
+from phaseintegrator import PhaseIntegrator
 
-model = VCOModel()
-model.load_weights('path/to/weights')
-prediction = model.predict(control_voltage)
-print(prediction)
+cv = 0.5
+integrator = PhaseIntegrator(cv, start_time=0, end_time=200, num_steps=1000)
+integrator.run()
 ```
 
 ## Results
