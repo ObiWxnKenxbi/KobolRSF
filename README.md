@@ -1,7 +1,7 @@
 # Kobol RSF VCO
 
 ## Brief Description
-A brief description of the project goes here. Explain the main objective and features of the project.
+aaaaa
 
 ## Installation
 
