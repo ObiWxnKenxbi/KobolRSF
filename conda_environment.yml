@@ -1,0 +1,14 @@
+name: KobolRSF
+channels:
+  - defaults
+dependencies:
+  - python=3.8.5
+  - pip
+
+  - pip:
+    - numpy
+    - matplotlib
+    - scipy
+    - file:///Users/sofiavallejo/Desktop/PeriodicUnit/tensorflow-2.4.1-py3-none-any.whl
+    - scikit-learn
+    - pandas
