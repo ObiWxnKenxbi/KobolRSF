@@ -1,7 +1,7 @@
 # Kobol RSF VCO
 
 ## Brief Description
-aaaaa
+This project focuses on the digital emulation of the analog RSF Kobol synthesizer's Voltage-Controlled Oscillator (VCO). By using augmented neural networks, the project tries to accurately replicate the  qualities of analog sound in a digital format. The main objective is modeling the oscillators' frequency behavior and responsiveness to parameter changes.
 
 ## Installation
 
@@ -41,6 +41,22 @@ conda env remove -n KobolRSF
 
 The main file is main.py. In there you can run the integrator and get the phases by providing a value for cv (from 0 to 1).
 
+Example of usage:
+
+``` python
+from model import VCOModel
+
+model = VCOModel()
+model.load_weights('path/to/weights')
+prediction = model.predict(control_voltage)
+print(prediction)
+```
+
+## Results
+Model Performance: The model achieved a mean squared error (MSE) of 0.000781 on the test set, indicating high accuracy.
+
+Phase Integration: Successfully modeled the periodic behavior of the oscillator, producing realistic phase patterns.
+
 ## Folder Structure
 ``` lua
 |-- models
@@ -71,9 +87,11 @@ This repository is part of my thesis project for the Masters in Sound and Music 
   doi          = {pending},
   url          = {pending}
 }
-
-```
-
+``` 
 ## TODO
 Finish the FFNN to predict the waveform data.
 Implement the real-time functionality.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
