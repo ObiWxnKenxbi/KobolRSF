@@ -56,6 +56,9 @@ Model Performance: The model achieved a mean squared error (MSE) of 0.000781 on 
 
 Phase Integration: Successfully modeled the periodic behavior of the oscillator, producing realistic phase patterns.
 
+## Dataset
+The dataset used for this project is free to download from Kaggle. You can find it here: [Kobol RSF VCO Dataset](https://www.kaggle.com/datasets/bringmethetxcos/kobolrsf-vco). There is more information about the dataset on the Kaggle page.
+
 ## Folder Structure
 ``` lua
 |-- models
