@@ -9,7 +9,7 @@ Features were extracted and saved into a CSV file for use in model training and 
 - `cv_frequency`: Control voltage value for frequency adjustment.
 - `cv_waveform`: Control voltage value for waveform selection.
 - `waveform_id`: Identifier for the waveform type.
-- `frequency`: Estimated frequency of the note using Fast Fourier Transform (FFT).
+- `frequency`:  Estimated fundamental frequency of the audio signal using a pitch detection algorithm (`detect_pitch`). This algorithm analyzes the spectral peaks of the waveform to determine the average pitch, providing an estimate of the fundamental frequency.
 - `angular_frequency`: Angular frequency calculated from the control voltage.
 - `waveform_data`: Raw audio data converted to numerical format.
 
