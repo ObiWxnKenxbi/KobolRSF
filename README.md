@@ -62,14 +62,20 @@ The dataset used for this project is free to download from Kaggle. You can find 
 ## Folder Structure
 ``` lua
 |-- models
-|   |-- PU.h5               # trained periodic unit model
-|-- src                     # source code for this project
-|   |-- main.py             # main script to access any functionality
-|   |-- phaseintegrator.py  # uses the H5 model to generate the angular frequency using the cv, then integrates it with the time steps and returns the folded phases
+|   |-- feature extraction
+|   |   |-- data_extraction.py     # code used to extract the features stored in the csv files and used to train the model
+|   |   |-- normalization.py       # code used to normalize the data extraction
+|   |-- metadata.py                # code used to extract the metadata of the audio files
+|   |-- waveforms.png              # visual representation of the waveforms in the Kobol RSF    
+|-- models
+|   |-- PU.h5                      # trained periodic unit model
+|-- src                            # source code for this project
+|   |-- main.py                    # main script to access any functionality
+|   |-- phaseintegrator.py         # uses the H5 model to generate the angular frequency using the cv, then integrates it with the time steps and returns the folded phases
 |-- LICENSE
-|-- README.md               # this file
-|-- requirements.txt        # requirements to use the code
-|-- conda_environment.yml   # conda environment configuration
+|-- README.md                       # this file
+|-- requirements.txt                # requirements to use the code
+|-- conda_environment.yml           # conda environment configuration
 ```
 
 ## Contributing
