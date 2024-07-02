@@ -2,6 +2,8 @@
 
 The RSF Kobol Synthesizer VCO dataset focuses on the digital emulation of the analog Voltage-Controlled Oscillator (VCO) to capture and replicate the distinctive qualities of analog sound in a digital format. Analog signals, known for their continuous nature and inherent imperfections, contribute to the warmth and depth of sound, characteristics that are highly prized and challenging to mimic digitally. The dataset aims to model the oscillators of the VCO module accurately.
 
+Note: This GitHub repository only contains the code that was used for feature extraction and the metadata.
+
 ## Feature Extraction
 
 Features were extracted and saved into a CSV file for use in model training and evaluation. These features include:
