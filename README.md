@@ -3,6 +3,8 @@
 ## Brief Description
 This project focuses on the digital emulation of the analog RSF Kobol synthesizer's Voltage-Controlled Oscillator (VCO). By using augmented neural networks, the project tries to accurately replicate the  qualities of analog sound in a digital format. The main objective is modeling the oscillators' frequency behavior and responsiveness to parameter changes.
 
+This work was developed as part of a Master's thesis at Universitat Pompeu Fabra in Barcelona, in academic collaboration with the Music Technology Group (MTG).
+
 ## Installation
 
 Clone the repository:
