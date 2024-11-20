@@ -1,4 +1,4 @@
-# Kobol RSF VCO
+![image](https://github.com/user-attachments/assets/764e4a7a-af17-4919-b82d-33d725b0b43d)# Kobol RSF VCO
 
 ## Brief Description
 This project focuses on the digital emulation of the analog RSF Kobol synthesizer's Voltage-Controlled Oscillator (VCO). By using augmented neural networks, the project tries to accurately replicate the  qualities of analog sound in a digital format. The main objective is modeling the oscillators' frequency behavior and responsiveness to parameter changes.
@@ -88,15 +88,16 @@ This repository is part of my thesis project for the Masters in Sound and Music 
 
 ``` bibtex
 
-@masterthesis{sofia_vallejo_2024_pending,
+@masterthesis{sofia_vallejo_2024_vco_ann,
   author       = {Sofia Vallejo Budziszewski},
-  title        = {{Title Pending}},
+  title        = {Modeling the Voltage Controlled Oscillator Using Augmented Neural Networks},
   school       = {Universitat Pompeu Fabra},
-  year         = 2024,
-  month        = jul,
-  doi          = {pending},
-  url          = {pending}
+  year         = {2024},
+  month        = {july},
+  doi          = {10.5281/zenodo.13861977},
+  url          = {https://zenodo.org/records/13861977}
 }
+
 ``` 
 ## TODO
 Finish the FFNN to predict the waveform data.
